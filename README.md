@@ -18,8 +18,8 @@ Verified on ModelSim. Testbench covers sequential writes and reads, fill to full
 ##Run it
 
 ```bash
-vlog fifo.v fifo_tb.v
-vsim fifo_tb
+vlog sync_fifo.v tb_sync_fifo.v
+vsim tb_sync_fifo
 run -all
 ```
 
